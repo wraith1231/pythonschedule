@@ -6,7 +6,7 @@ import DataManager
 app = wx.App()
 
 # editor = Editor.ScheduleEditor()
-timer = Timer.ScheduleTimer()
 dm = DataManager.DataManager()
+timer = Timer.ScheduleTimer(dm)
 
 app.MainLoop()
